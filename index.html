@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Chevere</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+	<link rel="stylesheet" href="/css/bootstrap.min.css" >
+	<link rel="stylesheet" href="/css/extra.css" >
+</head>
+<body>
+<!--parallax 1 -->
+<section class="text-center header">
+		<div class="container">
+        <div class="navbar-header">
+          <button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse text-left" id="navbar">
+          <ul class="nav navbar-nav menu">
+            <li><a href="#description" class="active">Quiénes somos</a></li>
+            <li><a href="#brand">Marcas</a></li>
+            <li><a href="#contact">Contacto</a></li>
+          </ul>
+           <ul class="nav navbar-nav navbar-right">
+            <li><a href="http://facebook.com/chevere" class="ic_face"></a></li>
+            <li><a href="http://twitter.com/chevere" class="ic_twitter"></a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+        
+      </div>
+       
+  <div class="logo center-block">
+  	<img src="/images/logo.png" alt="" class="img-responsive center-block">
+  </div>
+</section>
+<!--/parallax 1-->
+<div class="container-fluid">     
+    <div class="row short-description" id="description">
+        <div class="row" style="margin-right: 10px;">
+        <div class="col-md-10">
+          <div class="panel-heading text-muted"><h1 style="text-align: center;">Conoce Nuestra APP</h1></div>
+        </div>
+      </div>
+    <div class="col-md-1"></div>
+        <div class="col-md-5">
+            <div class="panel-body text-muted" style="font-size: 20px;text-align: right;margin-bottom: 80px;">Entra y se parte del mundo Modelo, la entrega a domicilio fácil y rápida, goza de tu evento, nosotros llegamos  donde tu estés, entérate dónde está tu pedido en cada momento, encontrarás grandes promociones, Modelo ahora más cerca de ti.
+            </div>
+      <img src="/images/playstore.png" alt="download play store" class="img-responsive center-block" style="width: 50%;">
+        </div>
+        <div class="col-md-6" style="padding-bottom: 80px;">
+          <img src="/images/mocks.png" alt="app chevere" class="img-responsive center-block">
+        </div>
+
+    </div><!--/row-->
+  
+</div><!--/container-->
+<div class="wrap" id="brand" >
+    <h1 class="center-block" style="text-align: center;color: #fff; background-color:#1061ad;opacity: 0.75;">Lo Mejor en Cerveza</h1>
+    <div id="showcase" class="noselect">
+      <img class="cloud9-item img-responsive" src="images/corona.png" alt="corona">
+      <img class="cloud9-item img-responsive" src="images/modelo.png" alt="modelo">
+      <img class="cloud9-item img-responsive" src="images/barril.png" alt="barril">
+      <img class="cloud9-item img-responsive" src="images/budlight.png" alt="budlight">
+      <img class="cloud9-item img-responsive" src="images/boca.png" alt=" boca negra">
+      <img class="cloud9-item img-responsive" src="images/artois.png" alt="artois">
+      <img class="cloud9-item img-responsive" src="images/ultra.png" alt="ultra">
+      <img class="cloud9-item img-responsive" src="images/straw.png" alt="straw">
+
+      
+
+    </div>
+</div>
+<div class="contact container-fluid" id="contact">
+<div class="row">
+	<div class="col-md-6"><img src="/images/contacto.png" alt="" class="img-responsive"> </div>
+	<div class="col-md-6">
+		<div class="row contact-form">
+			<div class="col-md-10 text-right"><h3>| CONTACTO</h3></div>
+			<br><br>
+			<label class="text-form" for="text"><h4>Déjanos tu consulta o comentarios y te escribirémos a la brevedad.</h4></label>
+			<br><br>
+			 <form role="form" action="#">
+			  <div class="form-group">
+			    <label for="name">Nombre:</label>
+			    <input type="text" class="form-control" value="" id="name">
+			  </div>
+			  <div class="form-group">
+			    <label for="tel">Télefono:</label>
+			    <input type="tel" class="form-control" value="" id="tel">
+			  </div>
+			  <div class="form-group">
+			    <label for="email">Correo electrónico:</label>
+			    <input type="email" class="form-control" value="" id="email">
+			  </div>
+			  <div class="form-group">
+			    <label for="message">Mensaje:</label>
+			    <textarea  class="form-control" colspan="20" value="" id="menssage"></textarea>
+			  </div>	
+        <div class="alert alert-success" style="display: none;">
+          <strong>Gracias!</strong> pronto nos pondremos en contacto.
+        </div>
+			  <button type="submit" class="btn btn-default btn-send">Enviar</button>
+			</form>
+		</div>
+	</div>
+</div>
+</div>
+<span class="ir-arriba glyphicon glyphicon-chevron-up"></span>
+
+<div id="footer">
+  <div class="container-fluid">
+    <div class="row">
+    <div class="col-md-4 text-center"><a href="#">Aviso de privacidad.</a></div>
+    <div class="col-md-4 text-center"><label>Todos los derechos reservados 2016.</label></div>
+    <div class="col-md-4 text-center"><a href="#">chevere.mx</a></div>
+    </div>
+  </div>
+</div>
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="/js/bootstrap.min.js"></script>
+  <script src="js/jquery.reflection.js"></script>
+  <script src="/js/jquery.cloud9carousel.js"></script>
+	<script>
+
+(function($) {
+    $.fn.parallax = function(options) {
+        var windowHeight = $(window).height();
+        // Establish default settings
+        var settings = $.extend({
+            speed: 0.15
+        }, options);
+ 
+        // Iterate over each object in collection
+        return this.each( function() {
+        	// Save a reference to the element
+        	var $this = $(this);
+        	// Set up Scroll Handler
+        	$(document).scroll(function(){
+    		        var scrollTop = $(window).scrollTop();
+            	        var offset = $this.offset().top;
+            	        var height = $this.outerHeight();
+    		// Check if above or below viewport
+			if (offset + height <= scrollTop || offset >= scrollTop + windowHeight) {
+				return;
+			}
+			var yBgPosition = Math.round((offset - scrollTop) * settings.speed);
+                 // Apply the Y Background Position to Set the Parallax Effect
+    			$this.css('background-position', 'center ' + yBgPosition + 'px');              
+        	});
+        });
+    }
+		}(jQuery));
+
+		$('#header,#short-description').parallax({
+			speed :	0.18
+		});
+
+		$('.services').parallax({
+			speed :	0.14
+		});
+
+
+$(document).ready(function(){
+ 
+	$('.ir-arriba').click(function(){
+		$('body, html').animate({
+			scrollTop: '0px'
+		}, 1000);
+	});
+ 
+	$(window).scroll(function(){
+		if( $(this).scrollTop() > 0 ){
+			$('.ir-arriba').slideDown(1000);
+		} else {
+			$('.ir-arriba').slideUp(1000);
+		}
+	});
+ 
+});
+
+$(function(){
+     $('a[href*=#]').click(function() {
+     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+         && location.hostname == this.hostname) {
+             var $target = $(this.hash);
+             $target = $target.length && $target || $('[name=' + this.hash.slice(1) +']');
+             if ($target.length) {
+                 var targetOffset = $target.offset().top;
+                 $('html,body').animate({scrollTop: targetOffset}, 1000);
+                 
+            }
+       }
+   });
+});
+
+$(document).ready(function(){
+  
+    $('.btn-send').click(function(){
+      error='';
+      name =$('#name').val();
+      tel=$('#tel').val();
+      email=$('#email').val().trim();
+      message=$('#menssage').val();
+
+      if(name=='')
+          error += 'Ingresa un Nombre \n';
+    
+    var regex = /[\w-\.]{2,}@([\w-]{2,}\.)*([\w-]{2,}\.)[\w-]{2,4}/;
+
+      if(email == '' || !regex.test(email) )
+          error += 'Ingresa Email Correcto\n';
+      if(message == '')
+        error += 'Ingresa un Mensaje';
+
+      if(error != '')
+        alert(error);
+      else{
+          dataString= name + ',' + tel +','+email+','+ message ;
+         $.ajax({
+            type: "POST",
+            url: "writecsv.php",
+            data: dataString,
+            success: function(data) {
+               if(data) 
+                $('.alert-success').css('display','block');               
+            }
+        });
+
+      }
+      return false; 
+    });
+});
+		</script>
+
+     <script>
+    $(function() {
+      var showcase = $("#showcase"), title = $('#item-title')
+
+      showcase.Cloud9Carousel( {
+        yOrigin: 42,
+        yRadius: 48,
+        mirror: {
+          gap: 12,
+          height: 0.4
+        },
+        buttonLeft: $("#nav > .left"),
+        buttonRight: $("#nav > .right"),
+        autoPlay: 1,
+        bringToFront: true,
+        onRendered: rendered,
+        onLoaded: function() {
+          showcase.css( 'visibility', 'visible' )
+          showcase.css( 'display', 'none' )
+          showcase.fadeIn( 1000 )
+        }
+      } )
+
+      function rendered( carousel ) {
+        title.text( carousel.nearestItem().element.alt )
+
+        // Fade in based on proximity of the item
+        var c = Math.cos((carousel.floatIndex() % 1) * 2 * Math.PI)
+        title.css('opacity', 0.5 + (0.5 * c))
+      }
+
+      //
+      // Simulate physical button click effect
+      //
+      $('#nav > button').click( function( e ) {
+        var b = $(e.target).addClass( 'down' )
+        setTimeout( function() { b.removeClass( 'down' ) }, 80 )
+      } )
+
+      $(document).keydown( function( e ) {
+        //
+        // More codes: http://www.javascripter.net/faq/keycodes.htm
+        //
+        switch( e.keyCode ) {
+          /* left arrow */
+          case 37:
+            $('#nav > .left').click()
+            break
+
+          /* right arrow */
+          case 39:
+            $('#nav > .right').click()
+        }
+      } )
+    })
+  </script>
+</body>
+</html>

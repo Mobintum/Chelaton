@@ -1,0 +1,231 @@
+	.header{ 
+	background: url(/images/bg_home.png) 	no-repeat center  top fixed;
+    color:#fff;
+    background-size:cover;
+    height: auto;
+
+	}
+
+	.logo{
+   	display: block;
+    width: 100%;
+	max-width: 388px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	}
+
+	.short-description,.our-clients{
+	background: url(/images/bg_puntos.png) no-repeat fixed;
+    color:#fff;
+    background-size:cover;
+    height: auto;
+	}
+
+	.services{
+	background: url(/images/bg_services.png) no-repeat fixed;
+    color:#fff;
+    background-size:cover;
+    height: auto;
+	}
+
+	#brand{
+	background: url(/images/bg_drawer.png) no-repeat fixed;
+    color:#fff;
+    background-size:cover;
+    height: auto;
+	}
+
+	
+
+	.services,
+	.short-description,
+	.our-clients {
+    padding: 10px 10px;
+	}
+
+	.text-color-fff{color: #fff;}
+
+	.transparent{
+		background-color: transparent !important;
+		 border: medium none !important;
+		 box-shadow:none;
+	}
+
+
+.rotateX{
+  -webkit-transform:rotate(-90deg);
+  -moz-transform:rotate(-90deg);
+  -o-transform:rotate(-90deg);
+  /* filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=1.5); */
+  -ms-transform:rotate(-90deg);        
+	display: block;
+	width: 150px;
+	 text-transform: uppercase;
+}
+
+
+.navbar-toggle {
+    border-color: #ddd;
+    background-color: #ddd;
+	}
+.icon-bar {
+    background-color: #888;
+	}
+.navbar-header {
+    float: right;
+    text-align: center;
+     width: 44px;
+}
+section {
+    overflow:auto;
+}
+
+
+#footer {
+    height: auto;
+    background-color:#585858;
+    padding-top:50px;
+    padding-bottom:70px;
+}
+
+#footer a, #footer label {
+  color:#efefef;
+  text-shadow:0 !important;
+  font-weight:200 !important;
+
+}
+
+.contact{
+	height: auto;
+}
+
+
+.row.contact-form {
+    padding: 5px 30px;
+}
+.btn-send{
+	width: 90px  !important;
+	float: right;
+	background-color: #f0ad4e !important;
+	color: #fff !important;
+}
+
+.panel-heading.text-muted, .padding-base {
+    padding: 40px 30px;
+}
+.nav>li>a{
+	color:#000 !important; 
+	background-color:transparent !important;
+ font-weight: 500 !important;
+ font-size: 24px;
+text-shadow:0!important;}
+
+.nav>li>a:focus,.nav>li>a:hover{
+	color:#000 !important; background-color:transparent !important;}
+
+	.navbar-collapse.text-left.collapse.in {
+    padding-top: 30px;
+}
+
+.menu > li {
+    margin-top: 30px;
+    padding-right: 46px;
+}
+
+.ic_face{
+	background:url("/images/face.png");
+	width: 44px;
+	height: 44px;
+	padding-left: 30px;
+}
+.ic_twitter{
+	background:url("/images/twitter.png");
+	width: 44px;
+	height: 44px;
+	padding-left: 30px;
+}
+
+/*.ic_face:hover{
+	background:url("/images/face_hover.png");
+	width: 40px;
+	height: 40px;
+}
+.ic_twitter:hover{
+	background:url("/images/twitter_hover.png");
+	width: 40px;
+	height: 40px;
+}*/
+
+.nav.navbar-nav.navbar-right > li {
+    margin-right: 20px;
+    margin-top: 18px;
+}
+
+.ir-arriba {
+	display:none;
+	padding:20px;
+	background:#024959;
+	font-size:20px;
+	color:#fff;
+	cursor:pointer;
+	position: fixed;
+	bottom:20px !important;
+	right:20px !important;
+	top: none!important;
+
+}
+
+
+/* slider */
+
+    #showcase {
+      height: 460px;
+      -webkit-border-radius: 8px;
+      -moz-border-radius: 8px;
+      border-radius: 8px;
+    }
+    #item-title {
+      color: #F31414;
+      font-size: 29px;
+      letter-spacing: 0.13em;
+      text-shadow: 1px 1px 6px #C72B2B;
+      text-align: center;
+      margin-top: 30px;
+      margin-bottom: 22px;
+    }
+    #nav {
+      text-align: center;
+    }
+    #nav > button {
+      width: 64px;
+      height: 36px;
+      color: #666;
+      font: bold 16px arial;
+      text-align: center;
+      margin: 5px;
+      text-shadow: 0px 1px 0px #f5f5f5;
+      background: #f6f6f6;
+      border: solid 2px rgba(0, 0, 0, 0.4);
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      border-radius: 5px;
+      -webkit-box-shadow: 0 0 9px 1px rgba(0, 0, 0, 0.4);
+      -moz-box-shadow: 0 0 9px 1px rgba(0, 0, 0, 0.4);
+      box-shadow: 0 0 9px 1px rgba(0, 0, 0, 0.4);
+      cursor: pointer;
+    }
+    #nav > button:active,
+    #nav > button.down {
+      background: #dfdfdf;
+      border: solid 2px rgba(0, 0, 0, 0.6);
+      box-shadow: none;
+    }
+    #share {
+      top: -9px;
+    }
+    #credits {
+      top: -15px;
+    }
+    .contact.container-fluid {
+    	margin-top: 15px;
+	}
